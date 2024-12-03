@@ -20,7 +20,7 @@ class Poem{
         String lines[]=loadStrings(filename);
         numLines=lines.length;
         co=color(random(0,255),random(0,255),random(0,255));
-        speed=random(10,20);
+        speed=random(5,5);
         poem = new ArrayList();
         for(int i=0;i<numLines;i++){
             poem.add(lines[i]);
